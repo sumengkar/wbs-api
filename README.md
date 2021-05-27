@@ -94,7 +94,6 @@ OK | BAD_REQUEST | NOT FOUND | UNAUTHORIZED | EXPIRED
 {
   method: 'GET',
   header: {
-    'Content-Type': 'application/json',
     'Token-Key': STRING
   },
   params: {
@@ -116,6 +115,29 @@ OK | BAD_REQUEST | NOT FOUND | UNAUTHORIZED | EXPIRED
       lampiran: ARRAY_URL_ATTACHMENT,
       status: STRING
     }
+  }
+}
+```
+---
+## **POST Register**
+```javascript
+{
+  method: 'POST',
+  header: {
+    'Token-Key': STRING
+  },
+  body: {
+    nik: STRING,
+    username: STRING,
+    password: STRING,
+    email: STRING,
+    phone_number: STRING,
+    alamat: STRING,
+    jenis_kelamin: STRING
+  },
+  response: {
+    status_string: 'OK',
+    message: STRING
   }
 }
 ```
