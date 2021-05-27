@@ -43,8 +43,8 @@ OK | BAD_REQUEST | NOT FOUND | UNAUTHORIZED | EXPIRED
     jam_kejadian: STRING,
     keterangan: STRING,
     nama_terlapor: STRING,
-    nip: STRING
-    jabatan: STRING
+    nip: STRING,
+    jabatan: STRING,
     unit_kerja: STRING,
     lampiran: JSON_STRINGIFY_ARRAY,
     status: STRING
@@ -64,7 +64,7 @@ OK | BAD_REQUEST | NOT FOUND | UNAUTHORIZED | EXPIRED
     'Token-Key': STRING
   },
   params: {
-    page: STRING
+    page: STRING,
     limit: STRING
   },
   response: {
@@ -101,7 +101,7 @@ OK | BAD_REQUEST | NOT FOUND | UNAUTHORIZED | EXPIRED
     pelaporan_id: STRING
   },
   response: {
-    status_string: 'OK'
+    status_string: 'OK',
     message: STRING,
     data: {
       pelaporan_id: STRING,
