@@ -83,6 +83,7 @@ OK | BAD_REQUEST | NOT FOUND | UNAUTHORIZED | EXPIRED
         unit_kerja: STRING,
         lampiran: ARRAY_URL_ATTACHMENT,
         is_anonym: BOOLEAN,
+        date_added: STRING,
         status: STRING
       }
     ]
@@ -115,6 +116,7 @@ OK | BAD_REQUEST | NOT FOUND | UNAUTHORIZED | EXPIRED
       unit_kerja: STRING,
       lampiran: ARRAY_URL_ATTACHMENT,
       is_anonym: BOOLEAN,
+      date_added: STRING,
       status: STRING
     }
   }
