@@ -47,7 +47,7 @@ OK | BAD_REQUEST | NOT FOUND | UNAUTHORIZED | EXPIRED
     jabatan: STRING,
     unit_kerja: STRING,
     lampiran: JSON_STRINGIFY_ARRAY,
-    status: STRING
+    is_anonym: BOOLEAN
   },
   response: {
     status_string: 'OK',
@@ -82,7 +82,7 @@ OK | BAD_REQUEST | NOT FOUND | UNAUTHORIZED | EXPIRED
         jabatan: STRING,
         unit_kerja: STRING,
         lampiran: ARRAY_URL_ATTACHMENT,
-        status: STRING
+        is_anonym: BOOLEAN
       }
     ]
   }
@@ -113,7 +113,7 @@ OK | BAD_REQUEST | NOT FOUND | UNAUTHORIZED | EXPIRED
       jabatan: STRING,
       unit_kerja: STRING,
       lampiran: ARRAY_URL_ATTACHMENT,
-      status: STRING
+      is_anonym: BOOLEAN
     }
   }
 }
