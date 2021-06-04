@@ -82,7 +82,8 @@ OK | BAD_REQUEST | NOT FOUND | UNAUTHORIZED | EXPIRED
         jabatan: STRING,
         unit_kerja: STRING,
         lampiran: ARRAY_URL_ATTACHMENT,
-        is_anonym: BOOLEAN
+        is_anonym: BOOLEAN,
+        status: STRING
       }
     ]
   }
@@ -113,7 +114,8 @@ OK | BAD_REQUEST | NOT FOUND | UNAUTHORIZED | EXPIRED
       jabatan: STRING,
       unit_kerja: STRING,
       lampiran: ARRAY_URL_ATTACHMENT,
-      is_anonym: BOOLEAN
+      is_anonym: BOOLEAN,
+      status: STRING
     }
   }
 }
