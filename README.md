@@ -74,14 +74,6 @@ OK | BAD_REQUEST | NOT FOUND | UNAUTHORIZED | EXPIRED
       {
         pelaporan_id: STRING,
         topik_laporan: STRING,
-        tanggal_kejadian: STRING,
-        jam_kejadian: STRING,
-        keterangan: STRING,
-        nama_terlapor: STRING,
-        nip: STRING,
-        jabatan: STRING,
-        unit_kerja: STRING,
-        lampiran: ARRAY_URL_ATTACHMENT,
         is_anonym: BOOLEAN,
         date_added: STRING,
         status: STRING
@@ -117,7 +109,8 @@ OK | BAD_REQUEST | NOT FOUND | UNAUTHORIZED | EXPIRED
       lampiran: ARRAY_URL_ATTACHMENT,
       is_anonym: BOOLEAN,
       date_added: STRING,
-      status: STRING
+      status: STRING,
+      signed_pdf: URL
     }
   }
 }
