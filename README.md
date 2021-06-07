@@ -38,6 +38,7 @@ OK | BAD_REQUEST | NOT FOUND | UNAUTHORIZED | EXPIRED
     'Token-Key': STRING
   },
   body: {
+    user_id: STRING,
     topik_laporan: STRING,
     tanggal_kejadian: STRING,
     jam_kejadian: STRING,
